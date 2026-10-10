@@ -1,0 +1,33 @@
+# Secrets (clés API) : à ne JAMAIS pousser
+.env
+.env.*
+!.env.example
+
+# Environnement virtuel
+venv/
+.venv/
+
+# Cache Python et notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Modèles et poids (lourds, reproductibles)
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Données brutes et téléchargées
+data/raw/
+
+# Résultats lourds ou régénérables
+results/multiseed/preds/
+
+# Éditeur et système
+.vscode/
+.DS_Store
+Thumbs.db
+# Notebooks
+*.ipynb

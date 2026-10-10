@@ -1,0 +1,24 @@
+{
+  "model": "BioBERT-LoRA-v3",
+  "model_name": "dmis-lab/biobert-base-cased-v1.2",
+  "seed": 42,
+  "epochs_max": 8,
+  "best_epoch": 4,
+  "learning_rate": 0.0003,
+  "batch_size": 8,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "target_modules": [
+    "query",
+    "value"
+  ],
+  "best_val_macro_f1": 0.5231447410288395,
+  "test_macro_f1": 0.5237543784264748,
+  "test_accuracy": 0.6100731112916328,
+  "training_time_sec": 509.80447459220886,
+  "peak_memory_gb": 0.6817541122436523,
+  "n_params": 108906248,
+  "n_trainable_params": 592900,
+  "trainable_pct": 0.5444132094239441
+}

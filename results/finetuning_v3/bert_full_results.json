@@ -1,0 +1,17 @@
+{
+  "model": "BERT",
+  "model_name": "bert-base-uncased",
+  "seed": 42,
+  "learning_rate": 2e-05,
+  "batch_size": 16,
+  "max_epochs": 5,
+  "patience": 2,
+  "warmup_ratio": 0.1,
+  "best_epoch": 3,
+  "best_val_macro_f1": 0.5282214082214082,
+  "test_macro_f1": 0.49675443125963714,
+  "test_accuracy": 0.602761982128351,
+  "training_time_sec": 602.365241765976,
+  "peak_memory_gb": 2.242190848,
+  "n_trainable_params": 109485316
+}
