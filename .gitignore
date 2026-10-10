@@ -1,33 +1,107 @@
-# Secrets (clés API) : à ne JAMAIS pousser
+# Secrets and API keys
 .env
 .env.*
 !.env.example
+.envrc
 
-# Environnement virtuel
+# Python virtual environments
 venv/
 .venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
-# Cache Python et notebooks
+# Python cache and compiled files
 __pycache__/
-*.pyc
+*.py[codz]
+*$py.class
+*.so
 .ipynb_checkpoints/
 
-# Modèles et poids (lourds, reproductibles)
-models/
+# Python packaging and build artifacts
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.Python
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+nosetests.xml
+coverage.xml
+*.cover
+*.lcov
+
+# Type checking and linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+
+# Machine learning models and weights
+
 *.safetensors
 *.bin
 *.pt
 *.pth
 
-# Données brutes et téléchargées
+# Raw and downloaded datasets
 data/raw/
 
-# Résultats lourds ou régénérables
+# Generated experiment outputs
 results/multiseed/preds/
 
-# Éditeur et système
+# Logs and databases
+*.log
+*.pid
+db.sqlite3
+db.sqlite3-journal
+
+# Editors and operating systems
 .vscode/
+.idea/
+.spyderproject
+.spyproject
 .DS_Store
 Thumbs.db
-# Notebooks
+tempCodeRunnerFile.py
+
+# Documentation builds
+/site
+docs/_build/
+
+# Other environments and package managers
+.pdm-python
+.pdm-build/
+.pixi/
+__pypackages__/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter notebooks
 *.ipynb
+.ipynb_checkpoints/
