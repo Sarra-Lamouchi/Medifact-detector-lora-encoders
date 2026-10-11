@@ -1,8 +1,14 @@
 # MediFact-Detector
 
-Detection of **health misinformation** from short claims, by **fine-tuning Transformer encoders** (BERT, BioBERT) and comparing **full fine-tuning vs LoRA** (PEFT family).
+Detection of **health misinformation** from short claims, by **fine-tuning Transformer encoders** ...
 
----
+## Demo
+
+<p align="center">
+  <img src="assets/demo.png" alt="MediFact-Detector Gradio demo" width="800">
+</p>
+
+*Gradio demo: BioBERT + LoRA predicts a verdict and class probabilities for a health claim. Research demo, not medical advice.*
 
 ## 1. Why this project?
 
