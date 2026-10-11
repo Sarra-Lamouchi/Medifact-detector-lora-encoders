@@ -251,4 +251,8 @@ Sources: [Goodwin, AI Act transparency obligations now in force](https://www.goo
 - Dettmers et al., *QLoRA: Efficient Finetuning of Quantized LLMs* (2023)
 - Kotonya & Toni, *Explainable Automated Fact-Checking for Public Health Claims* (PubHealth, 2020)
 - **PEFT** library: https://github.com/huggingface/peft
-- **AI assistance**: Claude (Anthropic) was used as an assistant for debugging, refactoring, learning support and documentation. The author ran all experiments and is responsible for the results.
+- **AI assistance**: Claude (Anthropic) was used as an assistant
+
+## Author
+
+**Sarra Lamouchi** — Data Science & AI Engineering Student, ESSAI
