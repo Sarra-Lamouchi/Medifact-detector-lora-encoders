@@ -105,3 +105,8 @@ __pypackages__/
 # Jupyter notebooks
 *.ipynb
 .ipynb_checkpoints/
+
+models/*
+!models/biobert_lora/
+results/finetuning_v3/
+results/lora_v3/
